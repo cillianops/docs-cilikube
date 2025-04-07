@@ -13,12 +13,13 @@ export default defineUserConfig({
     },
     "/zh/": {
       lang: "zh-CN",
-      title: "文档演示",
+      title: "CiliKube",
       description: "vuepress-theme-hope 的文档演示",
     },
   },
 
   theme,
+  
 
   // Enable it with pwa
   // shouldPrefetch: false,

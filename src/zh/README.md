@@ -1,13 +1,13 @@
 ---
 home: true
 icon: house
-title: cilikube主页
-# heroImage: .vuepress/public/logo.png
+title: 项目
+heroImage: .vuepress/public/logo.png
 # bgImage: https://theme-hope-assets.vuejs.press/bg/6-light.svg
 # bgImageDark: https://theme-hope-assets.vuejs.press/bg/6-dark.svg
 bgImageStyle:
   background-attachment: fixed
-heroText: cilikube
+heroText: CiliKube
 tagline: 简洁易用的 Kubernetes 集群管理平台
 actions:
   - text: 快速开始
@@ -19,15 +19,15 @@ actions:
     link: ./guide/
 
   - text: GitHub 仓库
-    icon: github
+    icon: ./public/assets/image/github-light.svg
     link: https://github.com/ciliverse/cilikube # <--- CHANGE THIS to your repo URL
     type: default
 
 highlights: 
   - header: 直观的集群管理
-    image: /assets/images/ui-overview.svg # <-- CREATE or FIND this image (placeholder)
+    image: assets/image/blog.svg # <-- CREATE or FIND this image (placeholder)
     # bgImage: https://theme-hope-assets.vuejs.press/bg/1-light.svg
-    # bgImageDark: https://theme-hope-assets.vuejs.press/bg/1-dark.svg
+    bgImageDark: https://theme-hope-assets.vuejs.press/bg/1-dark.svg
     description: 通过简洁清晰的 Web UI 轻松浏览和管理 Kubernetes 核心资源，如 Pods、Deployments、PVs、Nodes 等。
     highlights:
       - title: 资源可视化
@@ -41,13 +41,13 @@ highlights:
         # link: /guide/features/operations.html
 
   - header: 集群状态监控
-    image: /assets/images/monitoring.svg # <-- CREATE or FIND this image (placeholder)
-    # bgImage: https://theme-hope-assets.vuejs.press/bg/2-light.svg
+    image: /assets/image/features.svg # <-- CREATE or FIND this image (placeholder)
+    # bgImage: /assets/images/403.svg
     # bgImageDark: https://theme-hope-assets.vuejs.press/bg/2-dark.svg
     description: 集成仪表盘（如果实现）或提供关键资源的实时状态概览，帮助您快速了解集群健康状况。
     highlights:
       - title: 核心指标 (若有)
-        icon: fas fa-gauge-high
+        icon: 
         details: 展示 CPU、内存、节点状态、事件等关键集群指标。
         # link: /guide/features/dashboard.html
 
@@ -57,7 +57,7 @@ highlights:
         # link: /guide/features/status.html
 
   - header: 易于上手与使用
-    image: /assets/images/easy-to-use.svg # <-- CREATE or FIND this image (placeholder)
+    image: /assets/image/advanced.svg # <-- CREATE or FIND this image (placeholder)
     # bgImage: https://theme-hope-assets.vuejs.press/bg/3-light.svg
     # bgImageDark: https://theme-hope-assets.vuejs.press/bg/3-dark.svg
     description: 专为简化 Kubernetes 常见管理任务而设计，尤其适合开发者和初学者快速入门。

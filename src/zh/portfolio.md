@@ -1,6 +1,6 @@
 ---
 home: true
-portfolio: true
+portfolio: false
 title: 希里安
 icon: superscript
 welcome: 👋 你好，我是

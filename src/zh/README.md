@@ -1,7 +1,7 @@
 ---
 home: true
 icon: house
-title: 项目
+title: CiliKube
 heroImage: .vuepress/public/logo.png
 # bgImage: https://theme-hope-assets.vuejs.press/bg/6-light.svg
 # bgImageDark: https://theme-hope-assets.vuejs.press/bg/6-dark.svg

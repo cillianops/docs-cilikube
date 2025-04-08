@@ -2,7 +2,7 @@
 home: true
 icon: house
 title: CiliKube
-heroImage: .vuepress/public/logo.png
+heroImage: /.vuepress/public/logo.png
 # bgImage: https://theme-hope-assets.vuejs.press/bg/6-light.svg
 # bgImageDark: https://theme-hope-assets.vuejs.press/bg/6-dark.svg
 bgImageStyle:

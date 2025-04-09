@@ -1,81 +1,66 @@
 ---
 home: true
-icon: house
-title: CiliKube
-heroImage: /logo.png
-# bgImage: https://theme-hope-assets.vuejs.press/bg/6-light.svg
-# bgImageDark: https://theme-hope-assets.vuejs.press/bg/6-dark.svg
-bgImageStyle:
-  background-attachment: fixed
+icon: home
+title: CILIKUBE 主页
+heroImage: /logo.png # 强烈建议添加！放在 .vuepress/public/hero-cilikube.png
+# heroImageDark: /hero-cilikube-dark.png # 暗黑模式图片 (可选)
 heroText: CiliKube
-tagline: 简洁易用的 Kubernetes 集群管理平台
+tagline: 为 K8s 初学者和开发者打造的直观、开源管理平台 # 突出目标用户和价值
 actions:
-  - text: 快速开始
-    icon: lightbulb
-    link: ./demo/
+  - text: 5 分钟快速上手 🚀
+    link: /guide/getting-started/quick-start.html # 链接保持不变
     type: primary
-  - text: 文档
-    icon: book
-    link: ./guide/
+  - text: 查看 GitHub 源码
+    link: https://github.com/your-username/cilikube # 你的 GitHub 仓库链接
+    type: secondary
+features:
+  - title: 告别命令行，可视化操作
+    icon:  eye
+    details: 专为 K8s 新手设计，无需深入理解复杂 YAML，通过直观的图形界面即可完成常用 K8s 资源的管理。
+  - title: K8s 资源清晰呈现
+    icon: binoculars # 或 'sitemap'
+    details: 节点、应用 (Pod)、服务 (Service) 等核心资源状态一目了然，帮助你更轻松地理解 Kubernetes 架构。
+  - title: 一键部署你的第一个应用
+    icon: rocket
+    details: 提供向导式表单或内置编辑器，简化 Deployment、Service 创建，让你快速体验将应用部署到 K8s 的成就感。
+  - title: 实时日志与 Web 终端
+    icon: terminal # 或 'stream'
+    details: 无需 kubectl ，直接在 Web 界面查看容器实时日志，或进入容器终端进行快速调试。
+  - title: 便捷的 YAML 编辑器
+    icon: file-code # 或 'edit'
+    details: 内置 YAML 编辑器，支持语法高亮和基本校验，方便查看资源配置详情或进行高级编辑操作。
+  - title: 多集群轻松管理
+    icon: server
+    details: 无论是本地学习集群 (Kind, Minikube) 还是云端测试集群，都可以在一个界面中方便地连接和切换。
+  - title: 现代技术栈，稳定可靠
+    icon: shield-halved # 或 'cogs'
+    details: 基于 Go (Gin) 和 Vue3 (TS, ElementPlus) 构建，确保平台高效、稳定运行，同时也方便二次开发和学习。
+  - title: 完全开源，自由学习
+    icon: graduation-cap # 或 'book-open'
+    details: 遵循 Apache 2.0 协议，代码完全开放。是学习 K8s 管理和平台开发的绝佳实践项目，欢迎一同成长！
 
-  - text: GitHub 仓库
-    icon: ./public/assets/image/github-light.svg
-    link: https://github.com/ciliverse/cilikube # <--- CHANGE THIS to your repo URL
-    type: default
-
-highlights: 
-  - header: 直观的集群管理
-    image: assets/image/blog.svg # <-- CREATE or FIND this image (placeholder)
-    # bgImage: https://theme-hope-assets.vuejs.press/bg/1-light.svg
-    bgImageDark: https://theme-hope-assets.vuejs.press/bg/1-dark.svg
-    description: 通过简洁清晰的 Web UI 轻松浏览和管理 Kubernetes 核心资源，如 Pods、Deployments、PVs、Nodes 等。
-    highlights:
-      - title: 资源可视化
-        icon:  
-        details: 以卡片、表格等多种形式清晰展示资源状态和关键信息。
-        # link: /guide/features/resource-management.html # Link to specific feature page
-
-      - title: 便捷操作 (基于 YAML)
-        icon: fas fa-terminal
-        details: 提供基于 YAML 的创建、编辑和删除操作，保留 Kubernetes 的灵活性。
-        # link: /guide/features/operations.html
-
-  - header: 集群状态监控
-    image: /assets/image/features.svg # <-- CREATE or FIND this image (placeholder)
-    # bgImage: /assets/images/403.svg
-    # bgImageDark: https://theme-hope-assets.vuejs.press/bg/2-dark.svg
-    description: 集成仪表盘（如果实现）或提供关键资源的实时状态概览，帮助您快速了解集群健康状况。
-    highlights:
-      - title: 核心指标 (若有)
-        icon: 
-        details: 展示 CPU、内存、节点状态、事件等关键集群指标。
-        # link: /guide/features/dashboard.html
-
-      - title: 实时状态
-        icon: fas fa-sync-alt
-        details: 及时反馈 Pods、Deployments 等资源的运行状态和副本情况。
-        # link: /guide/features/status.html
-
-  - header: 易于上手与使用
-    image: /assets/image/advanced.svg # <-- CREATE or FIND this image (placeholder)
-    # bgImage: https://theme-hope-assets.vuejs.press/bg/3-light.svg
-    # bgImageDark: https://theme-hope-assets.vuejs.press/bg/3-dark.svg
-    description: 专为简化 Kubernetes 常见管理任务而设计，尤其适合开发者和初学者快速入门。
-    highlights:
-      - title: 命名空间隔离
-        icon: fas fa-object-group
-        details: 清晰的命名空间切换，方便管理不同环境或项目的资源。
-        # link: /guide/usage/namespaces.html
-
-      - title: 标准化操作
-        icon: fas fa-cogs # Or fas fa-wrench
-        details: 提供标准化的资源列表、详情查看、日志访问、终端进入等常用功能。
-        # link: /guide/usage/common-ops.html
-
-# Keep copyright false if you don't want the default VuePress/Hope copyright
-  
-
-copyright: false
+# copyright: false
 footer: <a href="https://theme-hope.vuejs.press/zh/" target="_blank">生如夏花之绚烂，死如秋叶之静美</a> 
----
 
+--- # 如果你想在 Features 和下面内容间加分割线
+
+
+## 技术栈核心
+
+*   **前端:** Vue 3, TypeScript, Vite, Element Plus
+*   **后端:** Go, Gin Framework
+
+## 参与贡献
+
+CiliKube 是一个充满活力的开源项目，我们热烈欢迎各种形式的贡献！无论是代码、文档还是建议，都能让 CiliKube 变得更好。
+
+➡️ 查看 [贡献指南](/contributing/)，加入我们吧！
+
+## 加入社区
+
+遇到问题？有新想法？想和大家交流 K8s？
+
+*   **报告 Bug / 提交建议:** [GitHub Issues](https://github.com/ciliverse/cilikube/issues)
+*   **讨论交流:**  [论坛链接](https://github.com/ciliverse/cilikube/issues)
+
+---

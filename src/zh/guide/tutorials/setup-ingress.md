@@ -46,7 +46,7 @@ order: 2
         *   **后端 (Backend):**
             *   **服务名称 (Service Name):** 选择我们之前创建的 `nginx-service`。
             *   **服务端口 (Service Port):** 选择 `http (80/TCP)` (或者直接输入端口号 `80`)。
-    ![创建 Ingress - 规则配置截图](placeholder.png)
+    <!-- ![创建 Ingress - 规则配置截图](placeholder.png) -->
 6.  **(可选) 配置 TLS/SSL:** 如果你有该域名的 SSL 证书，可以在这里配置 TLS，实现 HTTPS 访问。需要先将证书和私钥创建为 Kubernetes Secret。本次教程我们先使用 HTTP。
 7.  点击 "创建"。
 
@@ -83,7 +83,7 @@ order: 2
 
 你应该能看到 Nginx 的欢迎页面！
 
-![浏览器访问 Nginx 成功截图](placeholder.png)
+<!-- ![浏览器访问 Nginx 成功截图](placeholder.png) -->
 
 **排错提示:**
 

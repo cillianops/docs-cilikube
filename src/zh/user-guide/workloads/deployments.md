@@ -13,7 +13,7 @@ Deployment 是 Kubernetes 中用于管理**无状态应用副本**的核心控�
 
 ## 查看 Deployment 列表
 
-![Deployment 列表页面截图](placeholder.png)
+<!-- ![Deployment 列表页面截图](placeholder.png) -->
 
 列表通常显示：
 
@@ -28,7 +28,7 @@ Deployment 是 Kubernetes 中用于管理**无状态应用副本**的核心控�
 
 点击 Deployment 名称进入详情页。
 
-![Deployment 详情页面截图](placeholder.png)
+<!-- ![Deployment 详情页面截图](placeholder.png) -->
 
 详情页包含：
 
@@ -50,18 +50,18 @@ Deployment 是 Kubernetes 中用于管理**无状态应用副本**的核心控�
         *   配置 Pod 模板：添加容器、指定镜像、设置端口、环境变量、资源请求/限制等。
         *   设置副本数量。
         *   (可选) 配置标签、选择器、更新策略等高级选项。
-        ![创建 Deployment 表单截图](placeholder.png)
+        <!-- ![创建 Deployment 表单截图](placeholder.png) -->
     *   **YAML 创建:** 直接在内置的 YAML 编辑器中粘贴或编写 Deployment 的 YAML 配置。
-        ![创建 Deployment YAML 编辑器截图](placeholder.png)
+        <!-- ![创建 Deployment YAML 编辑器截图](placeholder.png) -->
 3.  点击 "创建" 或 "确认"。
 
 ## 更新 Deployment
 
 *   **伸缩副本:** 在列表页或详情页找到副本数，直接修改期望值或点击 +/- 按钮。
-    ![伸缩 Deployment 截图](placeholder.png)
+    <!-- ![伸缩 Deployment 截图](placeholder.png) -->
 *   **编辑:** 点击 "编辑" 按钮，可以通过表单或 YAML 修改 Deployment 的配置（例如，更新镜像版本、修改环境变量）。**注意:** 修改 Pod 模板会触发滚动更新。
 *   **重启 (触发滚动更新):** 通常可以通过点击 "重启" 或 "重新部署" 按钮来触发一次滚动更新（原理是修改 Pod 模板中的一个无关紧要的注解或标签，让 Deployment 控制器重新创建所有 Pod）。
-    ![重启 Deployment 按钮截图](placeholder.png)
+    <!-- ![重启 Deployment 按钮截图](placeholder.png) -->
 
 ## 回滚 Deployment
 

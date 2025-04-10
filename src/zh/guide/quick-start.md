@@ -46,7 +46,7 @@ Use code with caution.
 访问 CiliKube UI
 打开你的浏览器，访问 http://localhost:8080 (如果你修改了端口映射，请使用对应的端口)。
 你应该能看到 CiliKube 的登录界面或主界面。如果 CiliKube 默认连接了你挂载的 Kubeconfig 中的 current-context，你可能直接看到集群的 Dashboard。
-![alt text](placeholder.png)
+# ![alt text](placeholder.png)
 ```
 
 下一步

@@ -8,7 +8,7 @@ order: 1
 
 当你登录 CiliKube 并选择一个集群后，首先看到的就是 Dashboard 主界面。Dashboard 旨在提供当前集群状态的**核心信息概览**。
 
-![CiliKube Dashboard 截图](placeholder.png)
+<!-- ![CiliKube Dashboard 截图](placeholder.png) -->
 
 通常，Dashboard 会包含以下几个关键区域：
 

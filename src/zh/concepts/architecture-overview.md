@@ -8,7 +8,7 @@ order: 1
 
 CiliKube 采用现代化的前后端分离架构，旨在提供清晰、可扩展且高效的管理平台。
 
-![CiliKube 架构图](placeholder.png)
+<!-- ![CiliKube 架构图](placeholder.png) -->
 *(你需要绘制一个架构图: 用户 -> 浏览器(Vue3 Frontend) -> Nginx/Gateway(可选) -> Go Backend API -> K8s API Server -> Etcd)*
 
 ## 主要组件

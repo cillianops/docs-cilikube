@@ -1,24 +1,25 @@
 ---
 home: true
-icon: home
-title: CILIKUBE 主页
-heroImage: /logo.png # 强烈建议添加！放在 .vuepress/public/hero-cilikube.png
+icon: house
+title: 主页
+heroImage: /logo.png # 强烈建议添加！放在 .vuepress/public/cilikube.png
 # heroImageDark: /hero-cilikube-dark.png # 暗黑模式图片 (可选)
 heroText: CiliKube
-tagline: 为 K8s 初学者和开发者打造的直观、开源管理平台 # 突出目标用户和价值
+tagline: 为K8s初学者和开发者打造的直观、开源管理平台 # 突出目标用户和价值
 actions:
-  - text: 5 分钟快速上手 🚀
-    link: /guide/getting-started/quick-start.html # 链接保持不变
+  - text: 快速上手 🚀
+    link: /zh/guide/ # 链接保持不变
     type: primary
   - text: 查看 GitHub 源码
-    link: https://github.com/your-username/cilikube # 你的 GitHub 仓库链接
+    link: https://github.com/ciliverse/cilikube # 你的 GitHub 仓库链接
     type: secondary
+    icon: eye
 features:
   - title: 告别命令行，可视化操作
     icon:  eye
     details: 专为 K8s 新手设计，无需深入理解复杂 YAML，通过直观的图形界面即可完成常用 K8s 资源的管理。
   - title: K8s 资源清晰呈现
-    icon: binoculars # 或 'sitemap'
+    icon: sitemap # 或 'binoculars'
     details: 节点、应用 (Pod)、服务 (Service) 等核心资源状态一目了然，帮助你更轻松地理解 Kubernetes 架构。
   - title: 一键部署你的第一个应用
     icon: rocket

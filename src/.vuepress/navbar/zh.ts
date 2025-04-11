@@ -2,8 +2,8 @@ import { navbar } from "vuepress-theme-hope";
 
 export const zhNavbar = navbar([
   // "/zh/portfolio",
-  "/zh/",
-  "/zh/guide/",
+  "/",
+  "/guide/",
   // {
   //   text: "指南",
   //   icon: "lightbulb",

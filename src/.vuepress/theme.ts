@@ -20,29 +20,29 @@ export default hopeTheme({
   locales: {
     "/": {
       // navbar
-      navbar: enNavbar,
+      navbar: zhNavbar,
 
       // sidebar
-      sidebar: enSidebar,
+      sidebar: zhSidebar,
 
       footer: "Default footer",
 
       displayFooter: true,
 
       metaLocales: {
-        editLink: "Edit this page on GitHub",
+        editLink: "在 GitHub 上编辑此页",
       },
     },
 
     /**
      * Chinese locale config
      */
-    "/zh/": {
+    "/en/": {
       // navbar
-      navbar: zhNavbar,
+      navbar: enNavbar,
 
       // sidebar
-      sidebar: zhSidebar,
+      sidebar: enSidebar,
 
       footer: "生如夏花之绚烂，死如秋叶之静美",
 
@@ -50,7 +50,7 @@ export default hopeTheme({
 
       // page meta
       metaLocales: {
-        editLink: "在 GitHub 上编辑此页",
+        editLink: "Edit this page on GitHub",
       },
     },
   },

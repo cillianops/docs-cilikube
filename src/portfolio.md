@@ -1,22 +1,23 @@
 ---
 home: true
-portfolio: true
-title: Portfolio Home
-icon: house
-name: Cillian
-avatar: .vuepress/public/logo.png
+portfolio: false
+title: 希里安
+icon: superscript
+welcome: 👋 你好，我是
+name: 希里安
+avatar: https://theme-hope-assets.vuejs.press/hero/conan.png
 
 titles:
-  - Devops
-  - music
-  - sleep
+  - IT工程师
+  - 音乐爱好者
+  - 睡觉爱好者
 
-footer: false
+footer: true
 ---
 
-## Description
+## 介绍
 
-This is  cillian home page 
+这是一个开发者希里安主页
 
 
-For related configuration docs, please see [portfolio homepage](https://theme-hope.vuejs.press/guide/blog/home.html#portfolio-style-homepage)
+cilikube相关配置文档请见 [档案主页](https://theme-hope.vuejs.press/zh/guide/blog/home.html#项目主页)
